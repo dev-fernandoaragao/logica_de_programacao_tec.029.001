@@ -1,0 +1,15 @@
+# Início
+nome = input("Informe o nome:")
+email = input("Informe seu email: ")
+cpf = input("Informe seu CPF: ")
+telefone = input("Informe seu telefone: ")
+idade = input("Informe sua idade: ")
+altura = input("Informe sua altura: ").replace(",",".")
+
+# saída de dados
+print(f"Nome: {nome}. Tipo: {type(nome)}")
+print(f"Email: {email}. Tipo: {type(email)}")
+print(f"CPF: {cpf}. Tipo: {type(cpf)}")
+print(f"Telefone: {telefone}. Tipo: {type(telefone)}")
+print(f"Idade: {idade}. Tipo: {type(idade)}")
+print(f"Altura: {altura} metros. Tipo: {type(altura)}")
