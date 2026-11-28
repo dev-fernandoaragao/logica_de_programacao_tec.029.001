@@ -7,10 +7,13 @@
 # DIVIRTAM-SE!!!
 
 # entrada de dados
-gasolina = int(input("Informe valor da gasolina: "))
-etanol = int(input("Informe valor do etanol: "))
+gasolina = float(input("Informe o valor da gasolina: ").replace(',','.'))
+etanol = float(input("Informe o valor do etanol: ").replace(',','.'))
 
 media = (gasolina+etanol)
 
 # estrutura de decisão
-if media = <= 75:
+if etanol <= gasolina*0.75:
+    print("Melhor abastecer com Etanol.")
+else:
+    print("Melhor abastecer com Gasolina.")
